@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/take-pc-6/Documents/Documents/workspace/scala/api_server/src/main/scala/dao/PostDao.scala:153:59: not enough arguments for method update: (value: PostDao.this.PostTable#TableElementType)PostDao.this.driver.DriverAction[Int,slick.dbio.NoStream,slick.dbio.Effect.Write].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter value.[0m
+[0m[[0m[31merror[0m] [0m[0m     postTableQuery.filter(_.id === parent_post_id).update() //これでcomment_countを更新する。[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
